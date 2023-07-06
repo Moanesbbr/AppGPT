@@ -1,1 +1,14 @@
-*.dart linguist-language=Dart
+# Set the merge strategy for Dart-specific files
+*.dart merge=union
+
+# Set the line-ending style for Dart files to LF
+*.dart text eol=lf
+
+# Specify that Dart pubspec.lock should be treated as binary
+pubspec.lock binary
+
+# Set the line-ending style for other text files to LF
+*.txt text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
